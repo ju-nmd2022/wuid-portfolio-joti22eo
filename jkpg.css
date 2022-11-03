@@ -1,0 +1,85 @@
+html,
+body {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-image: url("Github pictures/jkpg.jpg");
+  position: sticky;
+  left: 60px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.granna-image {
+  position: aboslute;
+  right: 60px;
+  float: right;
+  padding-left: 20px;
+}
+
+/* .sport-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.nature-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.3);
+}
+.granna-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.events-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.go-out-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.eat-box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.3);
+}
+ */
+
+.body-content {
+  border-width: 3px;
+  border-style: solid;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+  border-color: rgba(138, 138, 138, 0.25);
+  background-color: rgba(210, 210, 210, 0.5);
+}
+
+div {
+  position: relative;
+}

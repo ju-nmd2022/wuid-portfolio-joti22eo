@@ -1,0 +1,61 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.name-button {
+  position: absolute;
+  right: 180px;
+}
+.cat-image {
+  position: absolute;
+  right: 100px;
+}
+
+.input-field {
+  float: right;
+  right: 100px;
+  border: 2px solid #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(58, 46, 43);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
+
+* {
+  background-color: rgb(210, 179, 164);
+}
+
+li:hover {
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+  color: rgb(198, 127, 159);
+}
+
+.comment-button {
+  border: 4px outset;
+}
+
+div {
+  background-color: aqua;
+}
