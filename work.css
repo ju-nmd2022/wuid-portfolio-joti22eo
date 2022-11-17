@@ -1,0 +1,108 @@
+html,
+body {
+  margin: 0px;
+  background-color: #eee4df;
+  padding-top: 10px;
+}
+
+/* Grid */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 6rem 1fr 1fr 0.2fr;
+  grid-template-areas:
+    "header header header"
+    "logo-image icon-image ."
+    "oasis limemelon kenny"
+    "footer footer footer";
+  /*   min-height: 100vh; */
+  gap: 2px;
+}
+
+.header {
+  /*   background-color: #ff3cff; */
+  grid-area: header;
+}
+
+.logo-image {
+  /*   background-color: #ff3cff; */
+  grid-area: logo-image;
+  padding-left: 30px;
+  padding-top: 100px;
+  min-width: auto;
+  height: 50%;
+}
+
+.icon-image {
+  /*   background-color: #ff3cff; */
+  grid-area: icon-image;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.oasis-image {
+  grid-area: oasis;
+  float: right;
+  padding-left: 30px;
+}
+
+.limemelon-image {
+  grid-area: limemelon;
+  padding-left: 30px;
+}
+
+.kenny-image {
+  grid-area: kenny;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.footer {
+  background-color: #cb6b5e;
+  grid-area: footer;
+}
+
+h1 {
+  text-align: left;
+  font-family: Astila;
+  font-size: 50pt;
+  padding-left: 30px;
+  color: #cb6b5e;
+}
+
+/*  Responsive */
+
+@media screen and (max-width: 630px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+    grid-template-areas:
+      "header"
+      "logo-image"
+      "icon-image"
+      "oasis"
+      "limemelon"
+      "kenny"
+      "footer";
+    /* place-items: center; */
+  }
+
+  .icon-image {
+    padding-top: 60px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .oasis-image {
+    padding-top: 60px;
+  }
+
+  .limemelon-image {
+    padding-top: 60px;
+  }
+
+  .kenny-image {
+    padding-top: 60px;
+  }
+}
