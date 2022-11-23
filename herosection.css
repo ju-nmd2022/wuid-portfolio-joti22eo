@@ -1,0 +1,167 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: keep on truckin;
+}
+
+h1 {
+  font-size: 64pt;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 786px;
+  /* background-image: url("Github pictures/art.jpg"); */
+  /*   The following 3 lines were added from https://www.w3schools.com/howto/howto_css_full_page.asp Accessed: 2022-11-20 */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cb6b5e;
+  border-radius: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2px;
+  padding-left: 22%;
+  font-size: 20pt;
+  color: #fed123;
+  margin: 1px;
+  animation-name: slidetext;
+  animation-duration: 2.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+.welcome-text {
+  font-family: lemon milk;
+}
+
+.cat {
+  position: aboslute;
+  padding-top: 40px;
+  padding-left: 200;
+  animation-name: slidecat;
+  animation: slidecat 2.4s ease-in;
+}
+
+.cat2 {
+  position: absolute;
+  padding-top: 593px;
+  padding-left: 510px;
+  animation-name: slidecat2;
+  animation: slidecat2 2.4s ease-in;
+}
+
+.paint {
+  position: absolute;
+  padding-top: 40px;
+  padding-right: 38%;
+}
+
+.bubbles {
+  position: absolute;
+  padding-top: 60px;
+  padding-left: 10%;
+  animation-name: easeinbubbles;
+  animation: easeinbubbles 2.4s ease-in;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.laptopcat {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  padding-left: 1350px;
+  padding-top: 200px;
+  /* animation-name: laptopslide; */
+  /* animation-duration: 1s; */
+}
+
+.laptoponly {
+  position: absolute;
+  padding-left: 1260px;
+  padding-top: 390px;
+  animation-name: laptopslide;
+  animation-duration: 2.4s;
+}
+
+.catears {
+  position: absolute;
+  padding-top: 400px;
+  padding-left: 1px;
+  width: 5%;
+  animation-name: catears;
+  animation-duration: 2.4s;
+}
+
+@keyframes slidetext {
+  0% {
+    transform: translateX(-800px);
+  }
+  100% {
+    tranform: translateX(0);
+  }
+}
+
+@keyframes slidecat2 {
+  0% {
+    transform: translateY(200px);
+  }
+
+  100% {
+    tranform: translateY(0);
+  }
+}
+
+@keyframes slidecat {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    tranform: translateY(0);
+  }
+}
+
+@keyframes easeinbubbles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes laptopslide {
+  0% {
+    transform: translateX(1200px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes catears {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}
